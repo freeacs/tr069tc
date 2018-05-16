@@ -6,6 +6,10 @@
     <packaging>jar</packaging>
     <name>FreeACS TR069 Test Client</name>
 
+    <properties>
+        <apache.httpclient.version>4.5.5</apache.httpclient.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
